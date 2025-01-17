@@ -47,7 +47,7 @@ Module OperatorsExample
         Console.WriteLine("5" & " " & "+" & " " & "3" & " " & "=" & " " & "8") 'print a string
         Console.WriteLine()
         Console.WriteLine("wake up neo..." & vbNewLine & "follow the white rabbit...")
-        Console.WriteLine(StrDup(20, "*"))
+        Console.WriteLine(StrDup(100, "*"))
     End Sub
 
 End Module
