@@ -4,6 +4,8 @@
 'Operators Example
 'https://github.com/rc-earnest/OperatorsExample.git
 
+Option Compare Text
+
 Module OperatorsExample
 
     Sub Main()
@@ -48,6 +50,32 @@ Module OperatorsExample
         Console.WriteLine()
         Console.WriteLine("wake up neo..." & vbNewLine & "follow the white rabbit...")
         Console.WriteLine(StrDup(100, "*"))
+
+        'Compare
+        Console.Write("5 > 3 = ") 'print a string
+        Console.WriteLine(5 > 3) 'print comparison
+        Console.WriteLine()
+
+        Console.Write("5 < 3 = ") 'print a string
+        Console.WriteLine(5 < 3) 'print comparison
+        Console.WriteLine()
+
+        Console.Write("5 = 3 ? ") 'print a string
+        Console.WriteLine(5 = 3) 'print comparison
+        Console.WriteLine()
+
+        Console.Write("5 not equal to 3 = ") 'print a string
+        Console.WriteLine(5 <> 3) 'print comparison
+        Console.WriteLine()
+
+        Console.Write("A > B = ") 'print a string
+        Console.WriteLine("A" > "B") 'print comparison
+        Console.WriteLine()
+
+        Console.Write("A = a ? ") 'print a string
+        Console.WriteLine("A" = "a") 'print comparison
+        Console.WriteLine()
+
     End Sub
 
 End Module
